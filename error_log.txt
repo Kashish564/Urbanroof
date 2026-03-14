@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\Users\sw\Downloads\ai_ddr_generator (1)\ai_ddr_generator\frontend\app.py", line 543, in <module>
+    st.session_state.ddr_pdf_bytes = generate_ddr_pdf(
+                                     ~~~~~~~~~~~~~~~~^
+        result["ddr_text"],
+        ^^^^^^^^^^^^^^^^^^^
+        images=st.session_state.extracted_images
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: generate_ddr_pdf() got an unexpected keyword argument 'images'
